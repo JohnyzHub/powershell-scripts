@@ -1,3 +1,4 @@
+# https://adamtheautomator.com/powershell-rest-api-tutorial/
 $webResult = Invoke-WebRequest https://reqres.in/
 $reasonPhrase = $webResult.BaseResponse.ReasonPhrase
 $statusCode = $webResult.StatusCode
